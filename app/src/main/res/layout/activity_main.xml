@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+    tools:context=".MainActivity">
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="234dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="-56dp"
+        android:layout_marginLeft="-56dp"
+        android:layout_marginTop="478dp"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="149dp"
+        android:layout_height="39dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="326dp"
+        android:hint="username"
+        android:textColorHint="@android:color/primary_text_light_nodisable"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/profile_email"
+        android:layout_width="278dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/profile_name"
+        android:layout_marginTop="22dp"
+        android:layout_centerHorizontal="true"
+        android:hint="email id"
+        android:textColorHint="@android:color/primary_text_light"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="163dp"
+        android:layout_height="43dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/twitter_login_button"
+        android:layout_marginTop="52dp" />
+
+
+    <ImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="115dp"
+        android:layout_height="107dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="142dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/twitter_login_button"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_button"
+        android:layout_alignStart="@+id/login_button"
+        android:layout_alignLeft="@+id/login_button"
+        android:layout_alignEnd="@+id/login_button"
+        android:layout_alignRight="@+id/login_button"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@color/tw__blue_default" />
+
+</RelativeLayout>

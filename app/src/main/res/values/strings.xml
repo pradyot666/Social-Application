@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SocialApplication</string>
+    <string name="facebook_app_id">699973064207177</string>
+    <string name="fb_login_protocol_scheme">fb699973064207177</string>
+    <string name="twitter_consumer_key">T4kDpUe07uX87OBszRKTtYMqF</string>
+    <string name="twitter_CONSUMER_SECRET">eQJOfdB7k4WOiIEEstgIEBMGTlHNZXgHgBwbGUILQrMmEjhHTx</string>
+    <string name="get_profile_image">Fetch Profile Image</string>
+
+
+</resources>
